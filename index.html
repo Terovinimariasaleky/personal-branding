@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Branding - Terovini Maria Saleky</title>
+    <style>
+        /* CSS Langsung di Dalam HTML */
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #450000;
+        }
+
+        .navbar {
+            background-color: #450000;
+            color: white;
+            padding: 15px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .navbar .logo {
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+
+        .navbar .nav-links {
+            list-style: none;
+            display: flex;
+            gap: 15px;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .nav-links a:hover {
+            text-decoration: underline;
+        }
+        header {
+            background-color: #450000;
+            color: white;
+            padding: 30px 20px;
+            text-align: center;
+        }
+        
+        .header-content {
+            max-width: 600px;
+            margin: 0 auto;
+            font-size: 1em;
+            line-height: 1.5;
+        }
+
+        .social-links {
+            margin-top: 10px;
+        }
+        
+        .social-links a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .social-links a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            padding: 25px;
+            max-width: 850px;
+            background-color: linear-gradient(135deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.1));
+            backdrop-filter:blur(10px);
+            border-radius: 15px;
+            width: 80%;
+            margin: 30px auto;
+            border: 2px solid rgba(255, 255, 255, 0.4);
+            box-shadow: 0 4px 10px rgba(255, 255, 255, 0.3);
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        }
+        
+        .container:hover {
+            transform: scale(1.02); /* Efek membesar saat hover */
+            box-shadow: 0px 4px 20px rgba(255, 255, 255, 0.6); /* Efek glow lebih terang */
+        }
+
+        h2 {
+            border-bottom: 3px solid #450000;
+            padding-bottom: 5px;
+            color: #450000;
+        }
+
+        ul {
+            list-style-type: square;
+            padding-left: 20px;
+        }
+
+        footer {
+            background-color: #450000;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+            font-size: 0.9em;
+        }
+
+    </style>
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">Terovini Maria</div>
+        <ul class="nav-links">
+            <li><a href="#education">Pendidikan</a></li>
+            <li><a href="#projects">Proyek</a></li>
+            <li><a href="#skills">Skill</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>Terovini Maria Saleky</h1>
+        <div class="heaser-content">
+            <p class="deskripsi">
+                Mahasiswa yang tengah mendalami pengembangan web dengan ketertarikan pada teknologi dan desain. 
+                Memiliki pemikiran analitis yang kuat, kemampuan komunikasi yang baik, serta semangat belajar yang tinggi. Bertanggung jawab, disiplin, dan mampu bekerja sama dalam tim untuk menciptakan solusi digital yang kreatif dan inovatif
+            </p>
+        </div>
+        <div class="social-links">
+           <a href="https://www.linkedin.com/in/tero-saleky-99b217312/" target="_blank">LinkedIn</a> | 
+           <a href="https://github.com/Terovinimariasaleky" target="_blank">GitHub</a>
+           <a href="mailto:saleky.terovini@gmail.com">Email</a>
+        </div>
+    </header>
+
+    <div class="container">
+        <section id="education">
+            <h2>Riwayat Pendidikan</h2>
+            <ul>
+                <li><strong>SMA Negeri 08 Batam</strong> - IPA (2021 - 2024)</li>
+            </ul>
+        </section>
+
+        <section id="projects">
+            <h2>🚀 Proyek yang Pernah Dikerjakan</h2>
+        <ul>
+            <li><strong>Algoritma</strong> - Game Sudoku.</li>
+            <li><strong>Proyek PBL Semester 1</strong> - Aplikasi pengajuan usulan MBKM.</li>
+        </ul>
+        </section>
+
+        <section id="skills">
+            <h2>Skillset</h2>
+            <ul>
+                <li><strong>Programming:</strong> Python, JavaScript, PHP</li>
+                <li><strong>Tools:</strong> Git, VS Code, MySQL, XAMPP</li>
+                <li><strong>Soft Skills:</strong> Communication, Good Cooperation, Problem Solving</li>
+            </ul>
+        </section>
+    </div>
+
+    <footer>
+        <p>© 2025 Terovini Maria Saleky</p>
+    </footer>
+
+
+</body>
+</html>
